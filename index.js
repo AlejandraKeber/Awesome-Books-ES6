@@ -1,7 +1,7 @@
 // Import modules
 import Book from './modules/book.js';
 import getBooks from './modules/store.js';
-import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
+/* import { DateTime } from './node_modules/luxon/build/es6/luxon.js'; */
 
 const addBook = (book) => {
   const books = getBooks();
@@ -93,7 +93,7 @@ document.querySelector('.main').addEventListener('click', (e) => {
 });
 
 // Display date using Luxon library
-document.getElementById('date-time').innerHTML = DateTime.now();
+/* document.getElementById('date-time').innerHTML = DateTime.now(); */
 
 // Show each section as a Single Page Application
 const list = document.getElementById('list');
