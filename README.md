@@ -17,8 +17,6 @@ https://github.com/AlejandraKeber/Awsome-Books-ES6.git
 ```
 - Open the folder with you code editor
 
-## Live Demo:
-- Please go to this link to deploy the website: [Awesome Books ES6](https://alejandrakeber.github.io/...)
 
 ## Authors:
 
