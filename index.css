@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+  width: 98%;
+  padding: 5px;
+}
+
+.navbar:hover {
+  cursor: pointer;
+}
+
+.divider {
+  border-left: 1px solid black;
+  height: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.current-time {
+  text-align: end;
+  padding-top: 7px;
+  margin-right: 20px;
+}
+
+.book {
+  font-size: x-large;
+}
+
+#book-form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.line {
+  width: 10%;
+  border: 0.1px solid black;
+  margin-top: 1rem;
+}
+
+.book-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.book-add {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.main {
+  border: 2px solid black;
+  width: 50%;
+  margin-top: 1rem;
+}
+
+.book-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.book-caption {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+.list-holder:nth-child(odd) {
+  background-color: lightgrey;
+  padding: 0 0 0.3rem 0.3rem;
+}
+
+.insertion {
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.insertion-point {
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.submit-btn {
+  background-color: darkgrey;
+  color: black;
+  font-size: small;
+  padding: 0.3rem;
+  margin-top: 1rem;
+}
+
+.sub-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.by {
+  margin: 0 0.7rem 0 0.7rem;
+}
+
+.id {
+  display: none;
+}
+
+.del {
+  color: black;
+  padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+  background-color: white;
+  border: 2px solid black;
+  margin-right: 5px;
+}
+
+.add-book {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.contact {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.contact-info {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.contact ul li {
+  list-style: circle;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  border: solid;
+  width: 97.5%;
+  margin-bottom: 10px;
+}
